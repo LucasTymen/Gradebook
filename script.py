@@ -25,5 +25,14 @@ gradebook[-1][-1] = 98
 print(gradebook)
 
 # Checkpoint 8 :
+gradebook[2].remove(85)
+print(gradebook)
+
 # Checkpoint 9 :
+gradebook[2].append("Pass")
+print(gradebook)
+
 # Checkpoint 10 :
+full_gradebook = last_semester_gradebook +gradebook
+print("########################################")
+print(full_gradebook)
