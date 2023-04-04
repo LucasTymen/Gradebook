@@ -14,3 +14,16 @@ gradebook = [["physics",98],["calculus",97],["poetry",85],["history",88]]
 print(gradebook)
 
 # Checkpoint 5 :
+gradebook.append(["computer science", 100])
+
+# Checkpoint 6 :
+gradebook.append(["visual arts", 93])
+print(gradebook)
+
+# Checkpoint 7 :
+gradebook[-1][-1] = 98
+print(gradebook)
+
+# Checkpoint 8 :
+# Checkpoint 9 :
+# Checkpoint 10 :
